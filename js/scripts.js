@@ -14,9 +14,9 @@ jQuery(document).ready(function ($) {
             title: 'Personal Details',
             type: 'details',
             details: [
-                {key: 'Name',value: 'Neev Ratnakar',keyClass: 'large',valueClass: 'mediumBold'},
-                {key: 'Date of birth',value: '23rd October 2013',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Place of birth',value: 'Bangalore',keyClass: 'medium',valueClass: 'largeBold'}
+                {key: 'Name',value: 'Neev Ratnakar',keyClass: 'mediumBold',valueClass: 'large'},
+                {key: 'Date of birth',value: '23rd October 2012',keyClass: 'smallBold',valueClass: 'small'},
+                {key: 'Place of birth',value: 'Bangalore',keyClass: 'small',valueClass: 'mediumBold'}
             ]
         },
         {
@@ -30,10 +30,9 @@ jQuery(document).ready(function ($) {
             ]
         },
         {
-            title: 'Parents Details',
+            title: 'Parents',
             type: 'details',
             details: [
-                {key: 'Name',value: 'Neev Ratnakar',keyClass: 'large',valueClass: 'largeBold'},
                 {key: 'Father',value: 'Pavan Ratnakar',keyClass: 'smallBold',valueClass: 'large'},
                 {key: 'Mother',value: 'Sonal Ratnakar',keyClass: 'medium',valueClass: 'mediumBold'}
             ]
@@ -70,8 +69,8 @@ jQuery(document).ready(function ($) {
             title: 'Grand Parents',
             type: 'details',
             details: [
-                {key: 'Grand Father',value: 'V R Ratnakar',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Grand Mother',value: 'Gayathri Ratnakar',keyClass: 'medium',valueClass: 'mediumBold'}
+                {key: 'Grand Father',value: 'Surendra Bhandari',keyClass: 'smallBold',valueClass: 'large'},
+                {key: 'Grand Mother',value: 'Ranjeela Bhandari',keyClass: 'medium',valueClass: 'mediumBold'}
             ]
         },
         {
@@ -133,7 +132,7 @@ jQuery(document).ready(function ($) {
             type: 'parallax',
             image: {
                 src: 'img/IMG_0422.JPG'
-            },
+             },
             details: [
                 [{value: 'Just Born',class: 'description'}]
             ]
@@ -160,7 +159,6 @@ jQuery(document).ready(function ($) {
     var a = new app.CardView({
         el: '.homepage .sections',
         collection: c
-    });
-    a.render();
+    }).render();
     $(window).stellar();
 });
