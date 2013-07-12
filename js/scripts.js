@@ -4,29 +4,29 @@ jQuery(document).ready(function ($) {
             title: 'Neev Ratnakar',
             type: 'parallax',
             image: {
-                src: 'img/DSC02844.JPG'
+                src: 'img/0.jpg'
             },
             details: [
-                [{value: 'JUST BORN',class: 'description'}]
+                [{value: 'TIMELINE',class: 'description'}]
             ]
         },
         {
             title: 'Personal Details',
             type: 'details',
             details: [
-                {key: 'Name',value: 'Neev Ratnakar',keyClass: 'mediumBold',valueClass: 'large'},
-                {key: 'Date of birth',value: '23rd October 2012',keyClass: 'smallBold',valueClass: 'small'},
-                {key: 'Place of birth',value: 'Bangalore',keyClass: 'small',valueClass: 'mediumBold'}
+                {key: 'Name',value: 'Neev Ratnakar',keyClass: 'large',valueClass: 'mediumBold'},
+                {key: 'Date of birth',value: '23rd October 2012',keyClass: 'smallBold',valueClass: 'large'},
+                {key: 'Place of birth',value: 'Bangalore',keyClass: 'medium',valueClass: 'largeBold'}
             ]
         },
         {
             title: 'First Month',
             type: 'parallax',
             image: {
-                src: 'img/DSC02850.JPG'
+                src: 'img/1.JPG'
             },
             details: [
-                [{value: 'Just Born',class: 'description'}]
+                [{value: 'YAWNING',class: 'description'}]
             ]
         },
         {
@@ -41,10 +41,10 @@ jQuery(document).ready(function ($) {
             title: 'Second Month',
             type: 'parallax',
             image: {
-                src: 'img/IMG_0407.JPG'
+                src: 'img/2.JPG'
             },
             details: [
-                [{value: 'Just Born',class: 'description'}]
+                [{value: 'SMILING',class: 'description'}]
             ]
         },
         {
@@ -59,10 +59,10 @@ jQuery(document).ready(function ($) {
             title: 'Third Month',
             type: 'parallax',
             image: {
-                src: 'img/IMG_0422.JPG'
+                src: 'img/3.JPG'
             },
             details: [
-                [{value: 'Just Born',class: 'description'}]
+                [{value: 'SLEEPING',class: 'description'}]
             ]
         },
         {
@@ -77,82 +77,85 @@ jQuery(document).ready(function ($) {
             title: 'Fourth Month',
             type: 'parallax',
             image: {
-                src: 'img/IMG_0976.JPG'
+                src: 'img/4.JPG'
             },
             details: [
-                [{value: 'Just Born',class: 'description'}]
+                [{value: 'SPIKY',class: 'description'}]
             ]
         },
         {
-            title: 'Grand Parents',
+            title: 'TOBE FILLED',
             type: 'details',
-            details: [
-                {key: 'Grand Father',value: 'V R Ratnakar',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Grand Mother',value: 'Gayathri Ratnakar',keyClass: 'medium',valueClass: 'mediumBold'}
-            ]
+            details: []
         },
         {
             title: 'Fifth Month',
             type: 'parallax',
             image: {
-                src: 'img/IMG_0983.JPG'
+                src: 'img/5.JPG'
             },
             details: [
-                [{value: 'Just Born',class: 'description'}]
+                [{value: 'NAUGHTY',class: 'description'}]
             ]
         },
         {
-            title: 'Grand Parents',
+            title: 'TOBE FILLED',
             type: 'details',
-            details: [
-                {key: 'Grand Father',value: 'V R Ratnakar',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Grand Mother',value: 'Gayathri Ratnakar',keyClass: 'medium',valueClass: 'mediumBold'}
-            ]
+            details: []
         },
         {
             title: 'Sixth Month',
             type: 'parallax',
             image: {
-                src: 'img/IMG_0976.JPG'
+                src: 'img/6.JPG'
             },
             details: [
-                [{value: 'Just Born',class: 'description'}]
+                [{value: 'FLYING',class: 'description'}]
             ]
         },
         {
-            title: 'Grand Parents',
+            title: 'TOBE FILLED',
             type: 'details',
-            details: [
-                {key: 'Grand Father',value: 'V R Ratnakar',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Grand Mother',value: 'Gayathri Ratnakar',keyClass: 'medium',valueClass: 'mediumBold'}
-            ]
+            details: []
         },
         {
             title: 'Seventh Month',
             type: 'parallax',
             image: {
-                src: 'img/IMG_0422.JPG'
-             },
+                src: 'img/7.JPG'
+            },
             details: [
-                [{value: 'Just Born',class: 'description'}]
+                [{value: 'SERIOUS',class: 'description'}]
             ]
         },
         {
-            title: 'Grand Parents',
+            title: 'TOBE FILLED',
             type: 'details',
-            details: [
-                {key: 'Grand Father',value: 'V R Ratnakar',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Grand Mother',value: 'Gayathri Ratnakar',keyClass: 'medium',valueClass: 'mediumBold'}
-            ]
+            details: []
         },
         {
             title: 'Ninth Month',
             type: 'parallax',
             image: {
-                src: 'img/IMG_0407.JPG'
+                src: 'img/8.jpg'
             },
             details: [
-                [{value: 'Just Born',class: 'description'}]
+                [{value: 'PLAYING',class: 'description'}]
+            ]
+        },
+        {
+            title: 'TOBE FILLED',
+            type: 'details',
+            details: []
+        },
+        {
+            title: 'Ninth Month',
+            type: 'parallax',
+            image: {
+                src: 'img/9.jpg'
+            },
+            details: [
+                [{value: 'COMING SOON',class: 'description'}]
             ]
         }
     ]);
