@@ -1,10 +1,16 @@
 var app = app || {};
 app.Card = Backbone.Model.extend({
     defaults: {
-        id: null,
         title: null,
-        description: null,
-        thumbnail: null
+        type: null,
+        image: {
+            src: null,
+            width: null,
+            height: null
+        },
+        details: []
     },
-    initialize: function(){}
+    getTitle: function(){
+        return this.get('title').split(' ');
+    }
 });
