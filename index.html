@@ -36,6 +36,7 @@
             <div id="footer"> 
                 <div class="container">            
                         <p class="copyright">Created by <a href="http://www.pavanratnakar.com" title="Pavan Ratnakar">Pavan Ratnakar</a>.</p>
+                        <p><a target="_blank" href="https://github.com/pavanratnakar/neev" title="Github link">Github link</a> for above implementation</p>
                     </div>
                 </div>
             </div>
@@ -58,8 +59,10 @@
                                 {{/each}}
                             </h3>
                         </div>
-                        <div class="credit">
-                            by <a href="{{card.credit.src}}" title="{{card.credit.name}}" target="_blank">{{card.credit.name}}</a>
+                        <div class="creditContainer">
+                            <div class="credit">
+                                Photo by <a href="{{card.image.creditSource}}" title="{{card.image.credit}}" target="_blank">{{card.image.credit}}</a>
+                            </div>
                         </div> 
                     </div>
                  </div>

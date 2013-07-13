@@ -103,11 +103,13 @@ img.scale-with-grid {
 .parallax h3 span{
     text-shadow: 0px 0px 5px #222;
 }
-.parallax .credit{
+.parallax .creditContainer{
     position: absolute;
     bottom: 0;
     right: 10px;
     color: white;
+    padding: 5px 10px;
+    background-color: rgba(0,0,0,0.2);
 }
 .parallax .description{
     text-transform: uppercase;
@@ -163,7 +165,7 @@ h3.sectionTitle {
 .large {font-size: 56px; text-transform: uppercase;}
 .largeBold {font-size: 56px; font-weight:700; text-transform: uppercase;}
 .date {font-size: 20px; font-weight:300;}
-.credit {font-size: 18px; font-weight:300;}
+.credit {font-size: 14px; font-weight:300;}
 
 h4 {font-size: 22px;}
 
@@ -235,9 +237,8 @@ blockquote:after {
     z-index:1;
     background:#111;
 }
-#footer p.copyright{
+#footer p{
     margin-bottom:0;
-    margin-top: 20px;
     text-align: center;
     color: #888888;
 }

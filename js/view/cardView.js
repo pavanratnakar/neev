@@ -8,7 +8,6 @@ app.CardView = Backbone.View.extend({
         var that = this;
         this.collection.each(function(m,i){
             if (m.get('type') === 'parallax') {
-                console.log(m.toJSON());
                 that.$el.append(that.parallaxTemplate({
                     card: m.toJSON(),
                     title1: m.getTitle()[0],

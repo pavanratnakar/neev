@@ -4,15 +4,13 @@ jQuery(document).ready(function ($) {
             title: 'Neev Ratnakar',
             type: 'parallax',
             image: {
-                src: 'img/0.jpg'
+                src: 'img/0.jpg',
+                credit: 'Hetal Shah',
+                creditSource: 'https://www.facebook.com/hetal1706'
             },
             details: [
                 [{value: 'Timeline',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            ]
         },
         {
             title: 'Personal Details',
@@ -20,22 +18,20 @@ jQuery(document).ready(function ($) {
             details: [
                 {key: 'Name',value: 'Neev Ratnakar',keyClass: 'large',valueClass: 'mediumBold'},
                 {key: 'Date of birth',value: '23rd October 2012',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Place of birth',value: 'Hyderabad',keyClass: 'medium',valueClass: 'largeBold'}
+                {key: 'Time of birth',value: '10:37 AM',keyClass: 'medium',valueClass: 'largeBold'},
+                {key: 'Place of birth',value: 'Hyderabad',keyClass: 'smallBold',valueClass: 'large'},
+                {key: 'Sun sign',value: 'Scorpio',keyClass: 'smallBold',valueClass: 'large'}
             ]
         },
         {
             title: 'First Month',
             type: 'parallax',
             image: {
-                src: 'img/1.jpg'
+                src: 'img/1.jpg',
+                credit: 'Hetal Shah',
+                creditSource: 'https://www.facebook.com/hetal1706'
             },
-            details: [
-                [{value: 'Yawning',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            details: []
         },
         {
             title: 'Parents',
@@ -49,15 +45,11 @@ jQuery(document).ready(function ($) {
             title: 'Second Month',
             type: 'parallax',
             image: {
-                src: 'img/2.jpg'
+                src: 'img/2.jpg',
+                credit: 'Sonal Ratnakar',
+                creditSource: 'https://www.facebook.com/sonal.ratnakar'
             },
-            details: [
-                [{value: 'Smiling',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            details: []
         },
         {
             title: 'Grand Parents',
@@ -71,15 +63,11 @@ jQuery(document).ready(function ($) {
             title: 'Third Month',
             type: 'parallax',
             image: {
-                src: 'img/3.jpg'
+                src: 'img/3.jpg',
+                credit: 'Sonal Ratnakar',
+                creditSource: 'https://www.facebook.com/sonal.ratnakar'
             },
-            details: [
-                [{value: 'Sleeping',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            details: []
         },
         {
             title: 'Grand Parents',
@@ -93,110 +81,101 @@ jQuery(document).ready(function ($) {
             title: 'Fourth Month',
             type: 'parallax',
             image: {
-                src: 'img/4.jpg'
+                src: 'img/4.jpg',
+                credit: 'Sonal Ratnakar',
+                creditSource: 'https://www.facebook.com/sonal.ratnakar'
             },
-            details: [
-                [{value: 'Spiky',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            details: []
         },
         {
-            title: 'TOBE FILLED',
+            title: 'Hyderabad Home',
             type: 'details',
-            details: []
+            details: [
+                {key: 'Date',value: '26th October 2012',keyClass: 'smallBold',valueClass: 'large'}
+            ]
         },
         {
             title: 'Fifth Month',
             type: 'parallax',
             image: {
-                src: 'img/5.jpg'
+                src: 'img/5.jpg',
+                credit: 'V R Ratnakar',
+                creditSource: 'https://www.facebook.com/profile.php?id=100003955268332'
             },
-            details: [
-                [{value: 'NAUGHTY',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            details: []
         },
         {
-            title: 'TOBE FILLED',
+            title: 'Namkaran Ceremony',
             type: 'details',
-            details: []
+            details: [
+                {key: 'Date',value: '21st November 2012',keyClass: 'smallBold',valueClass: 'large'},
+                {key: 'Venue',value: 'Hyderabad',keyClass: 'medium',valueClass: 'mediumBold'}
+            ]
         },
         {
             title: 'Sixth Month',
             type: 'parallax',
             image: {
-                src: 'img/6.jpg'
+                src: 'img/6.jpg',
+                credit: 'V R Ratnakar',
+                creditSource: 'https://www.facebook.com/profile.php?id=100003955268332'
             },
-            details: [
-                [{value: 'Flying',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            details: []
         },
         {
-            title: 'TOBE FILLED',
+            title: 'Bangalore Home',
             type: 'details',
-            details: []
+            details: [
+                {key: 'Date',value: '25th December 2012',keyClass: 'smallBold',valueClass: 'large'}
+            ]
         },
         {
             title: 'Seventh Month',
             type: 'parallax',
             image: {
-                src: 'img/7.jpg'
+                src: 'img/7.jpg',
+                credit: 'V R Ratnakar',
+                creditSource: 'https://www.facebook.com/profile.php?id=100003955268332'
             },
-            details: [
-                [{value: 'SERIOUS',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            details: []
         },
         {
-            title: 'TOBE FILLED',
+            title: 'First Sankranti',
             type: 'details',
+            details: [
+                {key: 'Date',value: '15th January 2013',keyClass: 'smallBold',valueClass: 'large'},
+                {key: 'Venue',value: 'Bangalore',keyClass: 'medium',valueClass: 'mediumBold'}
+            ]
+        },
+        {
+            title: 'Eigth Month',
+            type: 'parallax',
+            image: {
+                src: 'img/8.jpg',
+                credit: 'V R Ratnakar',
+                creditSource: 'https://www.facebook.com/profile.php?id=100003955268332'
+            },
             details: []
+        },
+        {
+            title: 'Ushtavan Ceremony',
+            type: 'details',
+            details: [
+                {key: 'Date',value: '11th April 2013',keyClass: 'smallBold',valueClass: 'large'},
+                {key: 'Venue',value: 'Bangalore',keyClass: 'medium',valueClass: 'mediumBold'}
+            ]
         },
         {
             title: 'Ninth Month',
             type: 'parallax',
             image: {
-                src: 'img/8.jpg'
-            },
-            details: [
-                [{value: 'Playing',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
-        },
-        {
-            title: 'TOBE FILLED',
-            type: 'details',
-            details: []
-        },
-        {
-            title: 'Ninth Month',
-            type: 'parallax',
-            image: {
-                src: 'img/9.jpg'
+                src: 'img/9.jpg',
+                credit: 'Prabhu Kalidas',
+                creditSource: 'https://www.facebook.com/prabhu.kalidas'
             },
             details: [
                 [{value: 'Coming soon',class: 'description'}]
-            ],
-            credit: {
-                name: 'Hetal Shah',
-                src: 'http://facebook.com'
-            }
+            ]
         }
     ]);
     var a = new app.CardView({
