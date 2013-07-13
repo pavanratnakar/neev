@@ -7,8 +7,12 @@ jQuery(document).ready(function ($) {
                 src: 'img/0.jpg'
             },
             details: [
-                [{value: 'TIMELINE',class: 'description'}]
-            ]
+                [{value: 'Timeline',class: 'description'}]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'Personal Details',
@@ -16,18 +20,22 @@ jQuery(document).ready(function ($) {
             details: [
                 {key: 'Name',value: 'Neev Ratnakar',keyClass: 'large',valueClass: 'mediumBold'},
                 {key: 'Date of birth',value: '23rd October 2012',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Place of birth',value: 'Bangalore',keyClass: 'medium',valueClass: 'largeBold'}
+                {key: 'Place of birth',value: 'Hyderabad',keyClass: 'medium',valueClass: 'largeBold'}
             ]
         },
         {
             title: 'First Month',
             type: 'parallax',
             image: {
-                src: 'img/1.JPG'
+                src: 'img/1.jpg'
             },
             details: [
-                [{value: 'YAWNING',class: 'description'}]
-            ]
+                [{value: 'Yawning',class: 'description'}]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'Parents',
@@ -41,11 +49,15 @@ jQuery(document).ready(function ($) {
             title: 'Second Month',
             type: 'parallax',
             image: {
-                src: 'img/2.JPG'
+                src: 'img/2.jpg'
             },
             details: [
-                [{value: 'SMILING',class: 'description'}]
-            ]
+                [{value: 'Smiling',class: 'description'}]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'Grand Parents',
@@ -59,29 +71,37 @@ jQuery(document).ready(function ($) {
             title: 'Third Month',
             type: 'parallax',
             image: {
-                src: 'img/3.JPG'
+                src: 'img/3.jpg'
             },
             details: [
-                [{value: 'SLEEPING',class: 'description'}]
-            ]
+                [{value: 'Sleeping',class: 'description'}]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'Grand Parents',
             type: 'details',
             details: [
                 {key: 'Grand Father',value: 'Surendra Bhandari',keyClass: 'smallBold',valueClass: 'large'},
-                {key: 'Grand Mother',value: 'Ranjeela Bhandari',keyClass: 'medium',valueClass: 'mediumBold'}
+                {key: 'Grand Mother',value: 'Ranjila Bhandari',keyClass: 'medium',valueClass: 'mediumBold'}
             ]
         },
         {
             title: 'Fourth Month',
             type: 'parallax',
             image: {
-                src: 'img/4.JPG'
+                src: 'img/4.jpg'
             },
             details: [
-                [{value: 'SPIKY',class: 'description'}]
-            ]
+                [{value: 'Spiky',class: 'description'}]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'TOBE FILLED',
@@ -92,11 +112,15 @@ jQuery(document).ready(function ($) {
             title: 'Fifth Month',
             type: 'parallax',
             image: {
-                src: 'img/5.JPG'
+                src: 'img/5.jpg'
             },
             details: [
                 [{value: 'NAUGHTY',class: 'description'}]
-            ]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'TOBE FILLED',
@@ -107,11 +131,15 @@ jQuery(document).ready(function ($) {
             title: 'Sixth Month',
             type: 'parallax',
             image: {
-                src: 'img/6.JPG'
+                src: 'img/6.jpg'
             },
             details: [
-                [{value: 'FLYING',class: 'description'}]
-            ]
+                [{value: 'Flying',class: 'description'}]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'TOBE FILLED',
@@ -122,11 +150,15 @@ jQuery(document).ready(function ($) {
             title: 'Seventh Month',
             type: 'parallax',
             image: {
-                src: 'img/7.JPG'
+                src: 'img/7.jpg'
             },
             details: [
                 [{value: 'SERIOUS',class: 'description'}]
-            ]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'TOBE FILLED',
@@ -140,8 +172,12 @@ jQuery(document).ready(function ($) {
                 src: 'img/8.jpg'
             },
             details: [
-                [{value: 'PLAYING',class: 'description'}]
-            ]
+                [{value: 'Playing',class: 'description'}]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         },
         {
             title: 'TOBE FILLED',
@@ -155,8 +191,12 @@ jQuery(document).ready(function ($) {
                 src: 'img/9.jpg'
             },
             details: [
-                [{value: 'COMING SOON',class: 'description'}]
-            ]
+                [{value: 'Coming soon',class: 'description'}]
+            ],
+            credit: {
+                name: 'Hetal Shah',
+                src: 'http://facebook.com'
+            }
         }
     ]);
     var a = new app.CardView({
